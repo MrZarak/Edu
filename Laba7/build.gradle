@@ -2,7 +2,7 @@ apply from: "$rootDir/build.gradle"
 
 version = "1.0"
 group = "zarak"
-archivesBaseName = "Laba4"
+archivesBaseName = "Laba7"
 
 
 jar {
