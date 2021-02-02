@@ -1,0 +1,10 @@
+rootProject.name = 'LabaJava'
+
+include "Laba1"
+include "Laba2"
+include "Laba3"
+include "Laba4"
+include "Laba5"
+include "Laba6"
+include "Laba7"
+include "Laba8"

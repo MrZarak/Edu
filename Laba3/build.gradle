@@ -1,0 +1,12 @@
+apply from: "$rootDir/build.gradle"
+
+version = "1.0"
+group = "zarak"
+archivesBaseName = "Laba3"
+
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'Main'
+    }
+}
