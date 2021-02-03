@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     static final byte A = 1;//Початковий індекс №1
     static final byte B = 1;//Початковий індекс №2
@@ -7,7 +9,8 @@ public class Main {
 
     //Номер заликової: 0112
     public static void main(String[] args) {
-        byte res = 0;
+        float res = 0;
+
         for (byte i = A; i <= N; i++) {
             byte bottom = (byte) (i + C);
             if (bottom == 0) {
@@ -20,7 +23,7 @@ public class Main {
                     return;
                 }
                 byte top = (byte) (i % j);
-                res += top / bottom;
+                res += (float) top / bottom;
             }
         }
         System.out.println(res);

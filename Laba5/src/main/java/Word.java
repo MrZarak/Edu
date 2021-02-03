@@ -7,10 +7,10 @@ public class Word {
 
     @Override
     public String toString() {
-        StringBuilder builder =new StringBuilder();
+        StringBuffer buffer =new StringBuffer();
         for (Letter letter : letters) {
-            builder.append(letter);
+            buffer.append(letter);
         }
-        return builder.toString();
+        return buffer.toString();
     }
 }

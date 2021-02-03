@@ -10,11 +10,11 @@ public class Sentence {
     public String toString() {
         if (words.length == 0)
             return "";
-        StringBuilder builder = new StringBuilder();
+        StringBuffer buffer = new StringBuffer();
         for (Word word : words) {
-            builder.append(word).append(" ");
+            buffer.append(word).append(" ");
         }
-        return builder.substring(0, builder.length() - 1);
+        return buffer.substring(0, buffer.length() - 1);
     }
     // Генерує об'єкт классу на основі спільного інтерфейсу CharSequence для String, StringBuffer, StringBuilder
     public static Sentence toSentence(CharSequence builder) {
